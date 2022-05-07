@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to left, rgb(1 3 30 / 75%), rgb(0 0 0 / 70%)), url(image/download.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.calculatorWrapper {
+    width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 100px 50px;
+    border-radius: 5px;
+    margin-top: 100px;
+background: #111;color: #fff;}
+
+.calculatorWrapper h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+input.indexNum {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    padding: 20px 0;
+
+    font-size: 18px;
+background: transparent;color: #fff;}
+
+input.binaryNum {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+button#submitBtn {
+    width: 180px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(to right, darkturquoise, darkblue);
+    border: none;
+    font-size: 18px;
+    color: #eee;
+    border-radius: 4px;
+}
+
+.binaryNum {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid;
+    height: 50px;
+    margin-top: 40px;
+    word-wrap: break-word;
+}
+
+.binaryNum h3 {
+    margin-left: 50px;
+    visibility: hidden;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        height: 850px;
+    }
+
+    #convertSection {
+        margin-top: 100px;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .calculatorWrapper {
+        width: 100%;
+        margin: auto;
+    }
+
+    .calculatorWrapper h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sectionWrapper {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .binaryNum {
+        height: 40px;
+        margin-top: 40px;
+    }
+
+
+}
